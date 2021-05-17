@@ -20,7 +20,8 @@ int findParent(int x)
 }
 
 // 두 원소가 속한 집합을 합치기
-void unionParent(int a, int b) {
+void unionParent(int a, int b)
+{
 	a = findParent(a);
 	b = findParent(b);
 	if (a < b)
