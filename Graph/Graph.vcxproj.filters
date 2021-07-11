@@ -16,6 +16,9 @@
     <Filter Include="소스 파일\동빈나">
       <UniqueIdentifier>{35a19809-fdef-4f33-b874-342b75ba69c0}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\프로그래머스">
+      <UniqueIdentifier>{dba28e30-5353-44a7-8db9-f36aeb8b308f}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="서로소 집합 자료구조.cpp">
@@ -29,6 +32,9 @@
     </ClCompile>
     <ClCompile Include="크루스칼 알고리즘.cpp">
       <Filter>소스 파일\동빈나</Filter>
+    </ClCompile>
+    <ClCompile Include="가장 먼 노드.cpp">
+      <Filter>소스 파일\프로그래머스</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

@@ -24,6 +24,7 @@ void unionParent(int a, int b)
 {
 	a = findParent(a);
 	b = findParent(b);
+
 	if (a < b)
 	{
 		parent[b] = a;
